@@ -1,0 +1,58 @@
+.cartoons {
+  padding-bottom: 80px;
+
+  &__slider {
+    margin: 40px 0px;
+  }
+
+  &--1 {
+    background: url("./../images/cartoons/demon-slayer.jpg") center/cover no-repeat;
+  }
+  &--2 {
+    background: url("./../images/cartoons/croods.jpg") center/cover no-repeat;
+  }
+  &--3 {
+    background: url("./../images/cartoons/dragon.jpg") center/cover no-repeat;
+  }
+  &--4 {
+    background: url("./../images/cartoons/over-the-moon.jpg") center/cover no-repeat;
+  }
+  &--5 {
+    background: url("./../images/cartoons/weathering.jpg") center/cover no-repeat;
+  }
+  &--6 {
+    background: url("./../images/cartoons/your-name.jpg") center/cover no-repeat;
+  }
+  &--7 {
+    background: url("./../images/cartoons/coco.jpg") center/cover no-repeat;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    padding: 5px 10px;
+    color: wheat;
+    border: 1px solid #ddd;
+    &:first-child {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    &:last-child {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    &:hover {
+      background-color: #ddd;
+      color: $main_bgc;
+    }
+    &.active {
+      background-color: $orangy;
+      color: white;
+      border: 1px solid $orangy;
+    }
+  }
+}

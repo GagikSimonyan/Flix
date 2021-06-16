@@ -1,0 +1,37 @@
+
+.movie {
+  padding-top: 100%;
+  &__block {
+    padding: 5px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  }
+  &__title {
+    margin-bottom: 15px;
+  }
+
+}
+
+.movie--1 {
+  background: url("./../images/supergirl.jpg") center/cover no-repeat;
+}
+.movie--2 {
+  background: url("./../images/captain-marvel.png") center/cover no-repeat;
+}
+.movie--3 {
+  background: url("./../images/demon-slayer.jpg") center/cover no-repeat;
+}
+.movie--4 {
+  background: url("./../images/blood-shot.jpg") center/cover no-repeat;
+}
+.movie--5 {
+  background: url("./../images/wanda.png") center/cover no-repeat;
+}
+.movie--6 {
+  background: url("./../images/bat-man.jpg") center/cover no-repeat;
+}
+
+@media (max-width: 420px) {
+  .movie__title {
+    margin-bottom: 5px;
+  } 
+ }

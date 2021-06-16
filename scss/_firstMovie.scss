@@ -1,0 +1,42 @@
+.firstmovie {
+  background: url('./../images/black-banner.png') center/cover no-repeat;
+  &__block {
+    max-width: 680px;
+  }
+  &__info {
+    margin-bottom: 30px;
+  }
+  &__text {
+    margin-bottom: 30px;
+  }
+  &__btn {
+    i {
+      color: #fff;
+      margin-right: 10px;
+    }
+  }
+}
+
+.secondmovie {
+  background: url('./../images/transformer-banner.jpg') center/cover no-repeat;
+  padding-top: 250px;
+}
+
+
+@media (max-width: 500px) {
+  .firstmovie__title {
+    font-size: 60px;
+  }
+  .main__movie {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .firstmovie__title {
+    font-size: 40px;
+  }
+  .main__movie {
+    padding: 50px 0;
+  }
+}
